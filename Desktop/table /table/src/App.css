@@ -1,5 +1,6 @@
 .image {
   max-width: 70px;
+  border-radius: 13px;
 }
 
 .column-val {
@@ -7,24 +8,123 @@
   text-align: center;
   padding: 0px 10px;
   margin: 0px 10px;
+  max-width: 400px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: fantasy;
 }
 
 .table {
-  align-items: center;
-  margin: 0px 10px;
+  margin: 42px auto;
+  border: 2px solid rgb(76, 5, 5);
+  padding: 10px;
+  border-radius: 40px;
+  /* border-radius: 88px; */
+  text-align: center;
 }
 
 .heading {
   align-items: center;
   text-align: center;
-  margin: 10px auto;
+  margin: 0px auto;
+  background: rgb(76, 5, 5);
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  font-family: inherit;
+  box-shadow: 0 2px 5px rgb(76, 5, 5);
 }
 
 .column-val-price {
   text-align: center;
-  /* border:1px solid rgb(186, 185, 185); */
-  border: none;
+  border: 1px solid white;
+  /* border: none; */
   border-radius: 10px;
   padding: 10px;
   margin: 32px 0px;
+  cursor: pointer;
+  text-transform: capitalize;
+
+}
+
+.column-val-price:hover {
+  border: 1px solid rgb(186, 185, 185);
+  text-transform: capitalize;
+}
+
+.table-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sort-by {
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 48px;
+}
+
+.sort-button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  background: white;
+  color: rgb(136, 7, 7);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 7px 0;
+  cursor: pointer;
+
+}
+
+.sort-button:hover {
+  /* border: 1px solid  grey; */
+  border-radius: 5px;
+  padding: 5px;
+  /* background: grey; */
+  color: rgb(136, 7, 7);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 7px 0;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(23, 19, 19, 0.2);
+}
+
+.save-button {
+  border: 1px solid rgb(11, 69, 96);
+  border-radius: 5px;
+  padding: 8px;
+  background: rgb(11, 69, 96);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 7px 8px;
+  cursor: pointer;
+  /* margin: 0px 5px; */
+}
+
+.reset-button {
+  border: 1px solid rgb(11, 107, 25);
+  border-radius: 5px;
+  padding: 8px;
+  background: rgb(11, 107, 25);
+  ;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 7px 8px;
+  cursor: pointer;
+}
+.table-heading{
+  font-family: cursive;
+  text-transform: capitalize;
+  color: rgb(136, 7, 7);
+}
+.category-row{
+  font-family: cursive;
+  text-transform: capitalize;
+  color: rgb(136, 7, 7);
+  align-items: center;
+  margin:4px 0px;
 }

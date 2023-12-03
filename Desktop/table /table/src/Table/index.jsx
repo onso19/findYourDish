@@ -3,7 +3,7 @@ import JsonDataDisplay from "./JsonDataDisplay";
 const Table=()=>{
 return<>
    <div className="App">
-            <h1 className="heading"> Details</h1>
+            <h1 className="heading"> find your Dish</h1>
             <JsonDataDisplay />
         </div> 
 </>
