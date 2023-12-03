@@ -1,0 +1,30 @@
+.image {
+  max-width: 70px;
+}
+
+.column-val {
+  align-items: center;
+  text-align: center;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+.table {
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.heading {
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.column-val-price {
+  text-align: center;
+  /* border:1px solid rgb(186, 185, 185); */
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 32px 0px;
+}
